@@ -1,0 +1,69 @@
+# ignore every file
+*
+
+# enter all folders
+!*/ 
+
+# track verilog and vhdl files
+!*.v
+!*.sv
+!*.vh
+!*.svh
+
+# track images
+!*.jpg
+!*.jpeg
+!*.png
+
+# track repository associated files
+
+!.gitignore
+!README.md
+!LICENSE
+
+# ignore these folders
+work/
+transcript
+vsim.wlf
+*.vstf
+modelsim.ini
+
+# Xilinx Vivado
+*.xpr
+*.runs/
+*.cache/
+*.hw/
+*.ip_user_files/
+*.sim/
+*.jou
+*.log
+*.str
+
+# Intel Quartus
+db/
+incremental_db/
+output_files/
+*.qpf
+*.qsf
+*.sof
+*.pof
+*.jdi
+*.pin
+*.summary
+
+# Synopsys VCS / Design Compiler
+csrc/
+simv
+simv.daidir/
+*.vpd
+*.fsdb
+*.saif
+DVEfiles/
+
+# System files
+.DS_Store
+Thumbs.db
+desktop.ini
+*~
+*.swp
+*.swo
